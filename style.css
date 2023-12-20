@@ -1,1 +1,116 @@
-# first_project
+body{
+    background-color: #282C33;
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+    top: 0;
+    left: 171px;
+    display: grid;
+    grid-template-rows: 61px 423px 96px 518px 365px 508px 228px 208px;
+    grid-template-columns: 1024px;
+    gap: 30px;
+    font-family: 'Fira Code', monospace;
+}
+/*Header*/
+header{
+    width: 1024px;
+    height: 61px;
+    background-color: #282C33;
+    line-height: 22px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+}
+
+.nlogo{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    
+}
+.name{
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+    color: white;
+    margin-left: 8px;
+    
+
+}
+.navbar{
+    display: flex;
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    padding-right: 32px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: white;
+}
+.navbar ul li a span{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #C778DD;
+}
+/*header End*/
+
+/*introduction starts*/
+.intro{
+    border: 1px solid black;
+    position: relative;
+    top: 123px;
+    width: 100%;
+    height: 423px;
+}
+
+.qute{
+    border: 1px solid black;
+    position: relative;
+    top:658px ;
+    width: 100%;
+    height: 61px;
+}
+
+.project{
+    border: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
+.skils{
+    border: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
+.aboutme{
+    border: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
+.contact{
+    border: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
+footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
