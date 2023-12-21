@@ -41,8 +41,6 @@ header{
     font-family: 'Fira Code', monospace;
     color: white;
     margin-left: 8px;
-    
-
 }
 .navbar{
     display: flex;
@@ -70,11 +68,83 @@ header{
 /*introduction starts*/
 .intro{
     border: 1px solid black;
-    position: relative;
-    top: 123px;
-    width: 100%;
+    color: white;
+    position: absolute;
+    width: 1024px;
     height: 423px;
+    top: 123px;
 }
+.introline{
+    position: absolute;
+    width: 537px;
+    height: 227px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.mnane{
+    font-size: 32px;
+    font-weight: 700;
+}
+.designation{
+    color: #C778DD;
+}
+.slog{
+    font-size: 18px;
+    color: #ABB2BF;
+    line-height: 25px;
+}
+.anime{
+    font-size: 30px;
+    list-style: none;
+    color: #C778DD;
+    padding: 0;
+    animation: texttype 1s infinite 0.5s ease-in-out forwards;
+}
+
+@keyframes texttype{
+    
+}
+
+.button button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 148px;
+    height: 37px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    border: 1px solid #C778DD;
+    font-family: 'Fira Code', monospace;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.photo{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    top: -20px;
+    right: 0;
+    left: 670px;
+}
+.currentwork{
+    border: 1px solid black;
+    
+
+}
+
+
+
+
 
 .qute{
     border: 1px solid black;
